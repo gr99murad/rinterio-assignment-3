@@ -15,12 +15,20 @@
               colors: {
                 clifford: '#da373d',
                 'nav-button':'#ABEF5F',
+                'works-clr-1':'#E7C1D3',
+                'works-clr-2':'#EFDA6E',
+                'works-clr-3':'#A4DAC3',
+                'works-clr-4':'#77AAEA',
+
                 
               }
             }
           }
         }
       </script>
+
+      <!-- customize background image -->
+       
       <!-- fontsawesome -->
     <script src="https://kit.fontawesome.com/0d5bc306b7.js" crossorigin="anonymous"></script>
 
@@ -91,7 +99,7 @@
 
         </nav>
 
-        <div>
+        <div class="mx-5">
             <img class="mx-auto" src="assets/banner.png" alt="">
 
             <h1 class=" font-extrabold text-5xl text-[#212121] text-center">A barn house of this design has a <br>striking appearance</h1>
@@ -108,7 +116,7 @@
     <main>
         <!-- design thought out section -->
         <section class="bg-slate-200 md:px-36 md:py-28">
-            <div class=" flex gap-7 flex-col md:flex-row">
+            <div class=" flex gap-7 flex-col md:flex-row mx-5">
                 <div>
                     <a class="btn bg-white text-black font-extrabold mb-6"><i class="fa-solid fa-arrow-right text-black bg-white w-5 h-5 rounded-full"></i>About Us </a>
 
@@ -142,7 +150,77 @@
                 </div>
 
             </div>
-        </section>
+
+            <!-- our works process section -->
+
+            <div class="mx-5">
+              
+          <div class="text-center mt-20">
+            <a class="btn bg-white text-black font-extrabold mb-6"><i class="fa-solid fa-arrow-right text-black bg-white w-5 h-5 rounded-full"></i>How we works</a>
+          <h3 class="font-extrabold text-3xl mb-6">Our Works Process</h3>
+          <p class="mb-6">Our Work Process is a streamlined approach that ensures efficient project planning, <br> design, development, and delivery, tailored to meet client needs.</p>
+
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-5">
+            <div class="bg-works-clr-1 rounded-3xl p-6">
+              <img src="assets/concept.png" alt="">
+              <h5 class="font-extrabold my-2">Concept</h5>
+              <p>Concept is the foundational idea or strategy that guides the entire project, ensuring alignment with client goals and creative vision.</p>
+            </div>
+            <div class="bg-works-clr-2 rounded-3xl p-6">
+              <img src="assets/flow-chart.png" alt="">
+              <h5 class="font-extrabold my-2">Design Process</h5>
+              <p>Concept is the foundational idea or strategy that guides the entire project, ensuring alignment with client goals and creative vision.</p>
+            </div>
+            <div class="bg-works-clr-3 rounded-3xl p-6">
+              <img src="assets/vision.png" alt="">
+              <h5 class="font-extrabold my-2">Supervision</h5>
+              <p>Concept is the foundational idea or strategy that guides the entire project, ensuring alignment with client goals and creative vision.</p>
+            </div>
+            <div class="bg-works-clr-4 rounded-3xl p-6">
+              <img src="assets/budget-planning.png" alt="">
+              <h5 class="font-extrabold my-2">Budget Planning</h5>
+              <p>Concept is the foundational idea or strategy that guides the entire project, ensuring alignment with client goals and creative vision.</p>
+            </div>
+          </div>
+
+         </section>
+
+         <!-- discuss next project section -->
+          <section class="w-full bg-no-repeat bg-cover" style="background-image: url('assets/bg.jpg');" >
+            <div class="md:px-36 md:py-28 mx-5">
+              <div class="text-center">
+                <a class="btn bg-lime-200 text-black font-extrabold mb-6"><i class="fa-solid fa-arrow-right text-black"></i>Let’s Connect</a>
+                <h3 class="font-extrabold text-3xl mb-6">Let’s Discuss Next Project</h3>
+                <p class="mb-6">Let’s Discuss Your Next Project: We're eager to collaborate and bring <br>your vision to life with our tailored solutions and expertise.</p>
+              </div>
+            
+              <div class="grid md:grid-cols-2 justify-items-center gap-y-6 md:ml-3">
+                
+              <input type="text" placeholder="First Name*" class="input input-bordered input-md w-full max-w-md rounded-full" />
+              
+              <input type="text" placeholder="Last Name*" class="input input-bordered input-md w-full max-w-md rounded-full" />
+              
+              <input type="text" placeholder="Phone Number*" class="input input-bordered input-md w-full max-w-md rounded-full" />
+              
+              <input type="text" placeholder="Email Number*" class="input input-bordered input-md w-full max-w-md rounded-full" />
+  
+              
+            
+              </div>
+              <div class="md:max-w-5xl md:ml-14 my-6">
+                <textarea placeholder="Write your message here" class=" h-60 bg-white textarea textarea-bordered textarea-lg w-full max-w-full mb-8"></textarea>
+                <button class="btn btn-block bg-nav-button font-extrabold">Send Mail <span ><i class="fa-solid fa-arrow-right text-white bg-black w-5 h-5 rounded-full -rotate-45 pt-0.5"></i></span></button>
+              </div>
+
+            </div>
+
+            
+          
+          </section>
+
+        
 
     </main>
     <footer>
