@@ -19,6 +19,7 @@
                 'works-clr-2':'#EFDA6E',
                 'works-clr-3':'#A4DAC3',
                 'works-clr-4':'#77AAEA',
+                'footer-clr':'#1C1C1C',
 
                 
               }
@@ -47,34 +48,10 @@
 </head>
 <body class="manrope-font ">
     <header class="md:container md:mx-auto">
-        <nav>
+        <nav class="">
             <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          class="h-5 w-5"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor">
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
-                      </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li ><a class="text-bold">Home</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>Portfolio</a></li>
-                    <li><a>Blogs</a></li>
-                    <li><a>Contact Us</a></li> 
-                    </ul>
-                  </div>
+                <div class="navbar-start pl-2">
+                  
                   <span ><i class="fa-solid fa-arrow-right text-black bg-nav-button w-5 h-5 rounded-full -rotate-45 pt-0.5 pl-0.5"></i></span>
                   <a class="font-bold text-xl">Rinterio</a>
                 </div>
@@ -87,13 +64,41 @@
                     <li><a>Contact Us</a></li> 
                   </ul>
                 </div>
-                <div class="navbar-end gap-2">
+                <div class="navbar-end gap-2 hidden sm:flex">
                     
                     <a class="bg-white w-5 h-5 rounded-full"><i class="fa-solid fa-magnifying-glass"></i></a>
                     <a class="bg-white w-5 h-5 items-center rounded-full"><i class="fa-solid fa-cart-shopping"></i></a>
                   <a class="btn bg-nav-button text-black">Book Consult <span ><i class="fa-solid fa-arrow-right text-white bg-black w-5 h-5 rounded-full -rotate-45 pt-0.5"></i></span></a>
                   
                 </div>
+
+
+                <div class="dropdown">
+                  <div tabindex="0" role="button" class="btn btn-ghost pl-44 lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                  <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-40 p-2  shadow">
+                    <li ><a class="text-bold">Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li> 
+                  </ul>
+                </div>
+
               </div>
 
 
@@ -209,7 +214,7 @@
               
             
               </div>
-              <div class="md:max-w-5xl md:ml-14 my-6">
+              <div class="md:max-w-5xl md:ml-14 lg:mr-12 lg:ml-20 my-6">
                 <textarea placeholder="Write your message here" class=" h-60 bg-white textarea textarea-bordered textarea-lg w-full max-w-full mb-8"></textarea>
                 <button class="btn btn-block bg-nav-button font-extrabold">Send Mail <span ><i class="fa-solid fa-arrow-right text-white bg-black w-5 h-5 rounded-full -rotate-45 pt-0.5"></i></span></button>
               </div>
@@ -223,8 +228,31 @@
         
 
     </main>
-    <footer>
 
+    <!-- footer part -->
+
+    <footer class="footer footer-center bg-footer-clr text-white rounded p-10">
+      <div class=" flex ">
+                  
+        <span ><i class="fa-solid fa-arrow-right text-black bg-nav-button w-5 h-5 rounded-full -rotate-45 pt-0.5 pl-0.5"></i></span><a class="font-bold text-xl">Rinterio</a>
+      </div>
+
+        <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+
+
+      
+      <nav class="flex gap-28">
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">Services</a>
+        <a class="link link-hover">Portfolio</a>
+        <a class="link link-hover">Blogs</a>       
+        <a class="link link-hover">Contact Us</a>
+
+      </nav>
+      <aside>
+        <a class="btn bg-nav-button text-black">Book Consult <span ><i class="fa-solid fa-arrow-right text-white bg-black w-5 h-5 rounded-full -rotate-45 pt-0.5"></i></span></a>
+      </aside>
     </footer>
+    
 </body>
 </html>
